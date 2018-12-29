@@ -1,0 +1,187 @@
+Script started on Sun 11 Mar 2018 10:52:56 PM PDT
+bachlerk@uw1-320-10:~/css343/assignments/ass4$ script output.txtg++ -std=c++14 -g -Wall -Wextra veertex.cpp edge.cpp graph.cpp ass3.cpp -o ass3[A[C[C[16Pscript output.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pvalgrind ./ass3script output.txtg++ -std=c++14 -g -Wall -Wextra veertex.cpp edge.cpp graph.cpp ass3.cpp -o ass3[A[C[C[16Pscript output.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pvalgrind ./ass3g++ -std=c++14 -g -Wall -Wextra veertex.cpp edge.cpp graph.cpp ass3.cpp -o ass3[A[C[C[6P~/.local/bin/cpplint edge.h
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cg++ -std=c++14 -g -Wall -Wextra veertex.cpp edge.cpp graph.cpp ass3.cpp -o ass3[A[C[C[18Pvalgrind ./ass3
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript output.txtg++ -std=c++14 -g -Wall -Wextra veertex.cpp edge.cpp graph.cpp ass3.cpp -o ass3[A[C[C[16Pscript output.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kscript output.txtg++ -std=c++14 -g -Wall -Wextra veertex.cpp edge.cpp graph.cpp ass3.cpp -o ass3[A[C[C[16Pscript output.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pvalgrind ./ass3g++ -std=c++14 -g -Wall -Wextra veertex.cpp edge.cpp graph.cpp ass3.cpp -o ass3[A[C[C[6P~/.local/bin/cpplint edge.h
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccppvertex.hcpp[2Pass3.cppvertex.cpp[2Phedge.cpp[2Phg++ -std=c++14 -g -Wall -Wextra veertex.cpp edge.cpp graph.cpp ass3.cpp -o ass3[A[C[C[18Pvalgrind ./ass3
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript output.txtg++ -std=c++14 -g -Wall -Wextra veertex.cpp edge.cpp graph.cpp ass3.cpp -o ass3[A[C[C[16Pscript output.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kg++ -std=c++14 -g -Wall -Wextra m ovie.cpp customer.cpp bstree.cpp return.cpp borrow.cpp inventory.cpp history.cpp  store.cpp drama.cpp comedy.cpp classics.cpp main.cpp -o ass4
+[01m[Kcustomer.cpp:[m[K In destructor ‘[01m[Kvirtual Customer::~Customer()[m[K’:
+[01m[Kcustomer.cpp:19:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < history.size(); i++) {
+[01;32m[K                     ^[m[K
+[01m[Kcustomer.cpp:[m[K In member function ‘[01m[Kstd::ostream& Customer::display(std::ostream&) const[m[K’:
+[01m[Kcustomer.cpp:37:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < history.size(); i++) {
+[01;32m[K                     ^[m[K
+[01m[Kborrow.cpp:[m[K In member function ‘[01m[Kvirtual Borrow* Borrow::createCommand(std::__cxx11::string)[m[K’:
+[01m[Kborrow.cpp:50:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [-Wreturn-type]
+ }
+[01;32m[K ^[m[K
+[01m[Kinventory.cpp:10:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdetails[m[K’ [-Wunused-parameter]
+ Inventory * Inventory::createCommand(string details) {
+[01;32m[K                                             ^[m[K
+[01m[Kstore.cpp:[m[K In member function ‘[01m[Kvoid Store::readCommands(std::__cxx11::string)[m[K’:
+[01m[Kstore.cpp:118:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KmovieType[m[K’ [-Wunused-variable]
+   char movieType;
+[01;32m[K        ^[m[K
+bachlerk@uw1-320-10:~/css343/assignments/ass4$ valgrind ./ass4 
+==579== Memcheck, a memory error detector
+==579== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==579== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==579== Command: ./ass4
+==579== 
+Invalid Movie Type: Z Hal Ashby, Harold and Maude, Bud Cort 3 1971
+Invalid Movie Type: Z Frank Capra, It's a Wonderful Life, James Steward 11 1946
+
+Current Inventory:
+F, 10, Woody Allen, Annie Hall, 1977
+F, 10, Joel Coen, Fargo, 1996
+F, 10, John Landis, National Lampoon's Animal House, 1978
+F, 10, Gore Verbinski, Pirates of the Caribbean, 2003
+F, 10, Nora Ephron, Sleepless in Seattle, 1993
+F, 10, Rob Reiner, When Harry Met Sally, 1989
+F, 10, Nora Ephron, You've Got Mail, 1998
+D, 10, Barry Levinson, Good Morning Vietnam, 1988
+D, 10, Clint Eastwood, Unforgiven, 1992
+D, 10, Gus Van Sant, Good Will Hunting, 2000
+D, 10, Jonathan Demme, Silence of the Lambs, 1991
+D, 10, Nancy Savoca, Dogfight, 1991
+D, 10, Phillippe De Broca, King of Hearts, 1967
+D, 10, Steven Spielberg, Schindler's List, 1993
+C, 10, George Cukor, Holiday, Cary Grant 9 1938
+C, 10, George Cukor, Holiday, Katherine Hepburn 9 1938
+C, 10, Victor Fleming, Gone With the Wind, Clark Gable 2 1939
+C, 10, Victor Fleming, Gone With the Wind, Vivien Leigh 2 1939
+C, 10, Victor Fleming, The Wizard of Oz, Judy Garland 7 1939
+C, 10, George Cukor, The Philadelphia Story, Cary Grant 5 1940
+C, 10, George Cukor, The Philadelphia Story, Katherine Hepburn 5 1940
+C, 10, John Huston, The Maltese Falcon, Humphrey Bogart 10 1941
+C, 10, Michael Curtiz, Casablanca, Humphrey Bogart 8 1942
+C, 10, Michael Curtiz, Casablanca, Ingrid Bergman 8 1942
+C, 10, Frank Capra, It's a Wonderful Life, Donna Reed 11 1946
+C, 10, Frank Capra, It's a Wonderful Life, James Steward 11 1946
+C, 10, Stanley Kubrick, A Clockwork Orange, Malcolm McDowell 2 1971
+C, 10, Hal Ashby, Harold and Maude, Ruth Gordon 3 1971
+
+1000 History:
+
+5000 History:
+
+8000 History:
+
+Invalid Movie Type:  Z 2 1971 Malcolm McDowell
+Invalid Action Type: X
+Invalid Action Type: Z 1000 D C 10 1941 Humphrey Bogart
+Customer ID not found: 1234
+Invalid Movie Type: , Bogus Title, 2001
+Invalid Media Type:  1000 Z F Fargo, 1996
+Invalid Action Type: B 1000 Z F Fargo, 1996
+Out Of Stock: , , Ruth Gordon 3 1971
+Out Of Stock: , , Ruth Gordon 3 1971
+Out Of Stock: , , Ruth Gordon 3 1971
+Invalid Movie Type: Steven Spielberg, Bogus Title, 0
+
+Current Inventory:
+F, 9, Woody Allen, Annie Hall, 1977
+F, 9, Joel Coen, Fargo, 1996
+F, 9, John Landis, National Lampoon's Animal House, 1978
+F, 10, Gore Verbinski, Pirates of the Caribbean, 2003
+F, 9, Nora Ephron, Sleepless in Seattle, 1993
+F, 9, Rob Reiner, When Harry Met Sally, 1989
+F, 9, Nora Ephron, You've Got Mail, 1998
+D, 9, Barry Levinson, Good Morning Vietnam, 1988
+D, 9, Clint Eastwood, Unforgiven, 1992
+D, 9, Gus Van Sant, Good Will Hunting, 2000
+D, 9, Jonathan Demme, Silence of the Lambs, 1991
+D, 8, Nancy Savoca, Dogfight, 1991
+D, 9, Phillippe De Broca, King of Hearts, 1967
+D, 9, Steven Spielberg, Schindler's List, 1993
+C, 9, George Cukor, Holiday, Cary Grant 9 1938
+C, 10, George Cukor, Holiday, Katherine Hepburn 9 1938
+C, 10, Victor Fleming, Gone With the Wind, Clark Gable 2 1939
+C, 10, Victor Fleming, Gone With the Wind, Vivien Leigh 2 1939
+C, 10, Victor Fleming, The Wizard of Oz, Judy Garland 7 1939
+C, 9, George Cukor, The Philadelphia Story, Cary Grant 5 1940
+C, 9, George Cukor, The Philadelphia Story, Katherine Hepburn 5 1940
+C, 9, John Huston, The Maltese Falcon, Humphrey Bogart 10 1941
+C, 10, Michael Curtiz, Casablanca, Humphrey Bogart 8 1942
+C, 10, Michael Curtiz, Casablanca, Ingrid Bergman 8 1942
+C, 10, Frank Capra, It's a Wonderful Life, Donna Reed 11 1946
+C, 10, Frank Capra, It's a Wonderful Life, James Steward 11 1946
+C, 9, Stanley Kubrick, A Clockwork Orange, Malcolm McDowell 2 1971
+C, 0, Hal Ashby, Harold and Maude, Ruth Gordon 3 1971
+
+1000 History:
+
+B 1000 D D Barry Levinson, Good Morning Vietnam,
+B 1000 D C 5 1940 Katherine Hepburn
+B 1000 D D Gus Van Sant, Good Will Hunting,
+B 1000 D C 5 1940 Cary Grant
+B 1000 D C 3 1971 Ruth Gordon
+
+1111 History:
+B 1111 D C 2 1971 Malcolm McDowell
+B 1111 D C 3 1971 Ruth Gordon
+B 1111 D C 10 1941 Humphrey Bogart
+B 1111 D C 9 1938 Cary Grant
+
+5000 History:
+
+B 5000 D C 3 1971 Ruth Gordon
+R 5000 D C 3 1971 Ruth Gordon
+B 5000 D C 3 1971 Ruth Gordon
+R 5000 D C 3 1971 Ruth Gordon
+B 5000 D C 3 1971 Ruth Gordon
+R 5000 D C 3 1971 Ruth Gordon
+B 5000 D C 3 1971 Ruth Gordon
+
+8000 History:
+
+B 8000 D F You've Got Mail, 1998
+R 8000 D F You've Got Mail, 1998
+B 8000 D C 3 1971 Ruth Gordon
+B 8000 D C 3 1971 Ruth Gordon
+B 8000 D F National Lampoon's Animal House, 1978
+
+8888 History:
+B 8888 D F Annie Hall, 1977
+B 8888 D F When Harry Met Sally, 1989
+B 8888 D D Jonathan Demme, Silence of the Lambs,
+B 8888 D D Nancy Savoca, Dogfight,
+B 8888 D C 3 1971 Ruth Gordon
+
+==579== Conditional jump or move depends on uninitialised value(s)
+==579==    at 0x404003: Borrow::~Borrow() (borrow.cpp:28)
+==579==    by 0x404083: Borrow::~Borrow() (borrow.cpp:29)
+==579==    by 0x404C81: Store::~Store() (store.cpp:42)
+==579==    by 0x4080AF: main (main.cpp:9)
+==579== 
+==579== Conditional jump or move depends on uninitialised value(s)
+==579==    at 0x4038CD: Return::~Return() (return.cpp:26)
+==579==    by 0x40394D: Return::~Return() (return.cpp:27)
+==579==    by 0x404C81: Store::~Store() (store.cpp:42)
+==579==    by 0x4080AF: main (main.cpp:9)
+==579== 
+==579== 
+==579== HEAP SUMMARY:
+==579==     in use at exit: 73,793 bytes in 24 blocks
+==579==   total heap usage: 1,003 allocs, 979 frees, 141,094 bytes allocated
+==579== 
+==579== LEAK SUMMARY:
+==579==    definitely lost: 632 bytes in 9 blocks
+==579==    indirectly lost: 457 bytes in 14 blocks
+==579==      possibly lost: 0 bytes in 0 blocks
+==579==    still reachable: 72,704 bytes in 1 blocks
+==579==         suppressed: 0 bytes in 0 blocks
+==579== Rerun with --leak-check=full to see details of leaked memory
+==579== 
+==579== For counts of detected and suppressed errors, rerun with: -v
+==579== Use --track-origins=yes to see where uninitialised values come from
+==579== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)
+bachlerk@uw1-320-10:~/css343/assignments/ass4$ exit
+
+Script done on Sun 11 Mar 2018 10:55:49 PM PDT

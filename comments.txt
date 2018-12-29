@@ -1,0 +1,7 @@
+Hours: 18
+Comments: I ran out of time to write comments on a lot of my classes and normally
+would add a lot more. I also am aware that I have a small memory leak
+but also ran out of time to debug this. Thanks!
+
+How to compile:
+g++ -std=c++14 -g -Wall -Wextra movie.cpp customer.cpp bstree.cpp return.cpp borrow.cpp inventory.cpp history.cpp store.cpp drama.cpp comedy.cpp classics.cpp main.cpp -o ass4
